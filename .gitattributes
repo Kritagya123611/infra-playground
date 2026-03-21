@@ -1,0 +1,2 @@
+*.tf linguist-language=Terraform
+*.png linguist-vendored
