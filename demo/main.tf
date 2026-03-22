@@ -65,3 +65,9 @@ output "prefix_outputs" {
     config_content = local_file.config.content
   }
 }
+
+resource "aws_instance" "name" {
+  //make something interesting
+  region = abs()
+}
+
